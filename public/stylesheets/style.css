@@ -1,6 +1,26 @@
 body {
-  padding: 50px;
+  margin: 0;
+  padding: 5px 50px;
+  color: white;
+  background-color: black;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#wrap {
+  padding: 5px;
+  color: black;
+  background-color: white;
+  overflow: hidden;
+}
+
+#container {
+  padding: 0 50px;
+}
+
+#footer {
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  text-align: center;
 }
 
 a {
