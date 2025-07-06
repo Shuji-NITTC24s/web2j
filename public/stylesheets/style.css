@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 5px 50px;
+  padding: 5px 10px;
   color: white;
   background-color: black;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -11,6 +11,34 @@ body {
   color: black;
   background-color: white;
   overflow: hidden;
+}
+
+#menu {
+  height: 30px;
+  width: 100%;
+}
+
+.menu-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  border-bottom: 3px solid #DDDDDD;
+}
+
+.menu-column {
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.menu-column a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-column:hover {
+  background-color: #DDDDDD;
 }
 
 #container {
