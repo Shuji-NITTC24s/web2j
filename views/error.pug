@@ -1,4 +1,8 @@
-doctype html
-h1= message
-h2= error.status
-pre= error.stack
+extends layout
+
+block content
+    p Oops! Something unexpected happened.
+    p return 
+        a(href="/") home
+    div(style='font-size:0.8em; overflow-x: scroll;')
+        pre= error.stack
